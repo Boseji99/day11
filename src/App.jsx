@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import MyPlugin from "./Components/ProductReviews";
 
 const App = () => {
   return (
     <div>
-      my app
+      <MyPlugin />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
